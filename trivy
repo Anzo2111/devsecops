@@ -6,3 +6,6 @@
 6. change Dockerfile (read instructions , go to dockerhub find image's related versions)
 7. build again
 8. scan again
+
+-----
+trivy image --severity HIGH,CRITICAL my-test-image  // for filtering 
