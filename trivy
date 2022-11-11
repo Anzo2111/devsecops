@@ -1,0 +1,8 @@
+1. docker pull aquasec/trivy:0.18.3
+2. Clone/Download repository with Dockerfile and cd to the repo
+3. docker build -t <tagname> . // tagging is not necessary but you can use it instead of image id
+4.  docker images // not ncsr
+5. docker run -v/var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.18.3 <tagname> 
+6. change Dockerfile
+7. build again
+8. scan again
