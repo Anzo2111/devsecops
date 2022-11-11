@@ -3,6 +3,6 @@
 3. docker build -t <tagname> . // tagging is not necessary but you can use it instead of image id
 4.  docker images // not ncsr
 5. docker run -v/var/run/docker.sock:/var/run/docker.sock aquasec/trivy:0.18.3 <tagname> 
-6. change Dockerfile
+6. change Dockerfile (read instructions , go to dockerhub find image's related versions)
 7. build again
 8. scan again
